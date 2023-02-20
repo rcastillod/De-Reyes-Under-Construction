@@ -193,7 +193,13 @@ header {
 }
 
 .social-list li>span {
-  color: hsl(var(--white-color));
+  color: hsl(var(--text-color));
+}
+
+@media (min-width: 768px) {
+  .social-list li>span {
+    color: hsl(var(--white-color));
+  }
 }
 
 .social-list li>a {
