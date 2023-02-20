@@ -323,10 +323,12 @@ header {
 
   .contact-wrapper .contact-item {
     margin-block-end: 1.875rem;
+    padding: 0;
   }
 
-  .contact-wrapper .contact-item.comercial {
-    flex: 0 1 50%
+  .contact-wrapper .contact-item.comercial,
+  .contact-wrapper .contact-item.ventas {
+    flex: 1 1 50%
   }
 
   .contact-wrapper .contact-item.central {
@@ -334,9 +336,6 @@ header {
     flex: 1 0 100%;
   }
 
-  .contact-wrapper .contact-item.ventas {
-    flex: 0 1 50%
-  }
 }
 
 @media (min-width: 576px) {
