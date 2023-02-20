@@ -227,8 +227,13 @@ header {
 
 /* CONTENT */
 .content {
-
   align-items: center;
+}
+
+@media (orientation: landscape) {
+  .content {
+    margin-block-end: 6.25em
+  }
 }
 
 .content>h1,
