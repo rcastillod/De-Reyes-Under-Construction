@@ -139,7 +139,6 @@ select {
 }
 
 .container {
-  padding-inline: 2em;
   margin-inline: auto;
   max-width: min(100% - 2rem, 96rem);
 }
