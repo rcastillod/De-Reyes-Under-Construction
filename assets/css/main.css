@@ -354,6 +354,12 @@ header {
   font-size: 1.125rem;
 }
 
+@media (max-width: 576px) {
+  .contact-wrapper .contact-item>span>span {
+    display: block;
+  }
+}
+
 .contact-wrapper .contact-item>div {
   --gap: 0.5rem;
 }
