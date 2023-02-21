@@ -373,7 +373,7 @@ header {
 .contact-item .contact-item-phone {
   align-items: center;
   display: grid;
-  grid-template-columns: 1.25rem auto;
+  grid-template-columns: 1.45rem auto;
   gap: .4rem;
   color: hsl(var(--text-color));
   text-decoration: none;
@@ -383,4 +383,8 @@ header {
 .contact-item .contact-item-email:is(:hover, :focus),
 .contact-item .contact-item-phone:is(:hover, :focus) {
   color: hsl(var(--primary-color-shade));
+}
+
+.contact-item svg {
+  margin-block-start: .3rem;
 }
