@@ -270,11 +270,13 @@ header .flag-img {
 
 .social-list li>span {
   color: hsl(var(--text-color));
+  font-size: .8125rem;
 }
 
 @media (min-width: 768px) {
   .social-list li>span {
     color: hsl(var(--white-color));
+    font-size: 1rem;
   }
 }
 
@@ -302,11 +304,14 @@ header .flag-img {
   background-color: hsl(var(--primary-color));
 }
 
-.social-list li>a>svg {
+.social-list li>a>svg,
+.social-list li>a>svg>path {
   fill: hsl(var(--primary-color));
+  width: 100%;
 }
 
-.social-list li>a:is(:hover, :focus)>svg {
+.social-list li>a:is(:hover, :focus)>svg,
+.social-list li>a:is(:hover, :focus)>svg>path {
   fill: hsl(var(--white-color));
 }
 
